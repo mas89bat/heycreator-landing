@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HeyCreator — Coming Soon</title>
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #0a0a0a;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    .container {
+      text-align: center;
+    }
+    .logo {
+      width: min(400px, 80vw);
+      margin-bottom: 48px;
+    }
+    .coming-soon {
+      font-size: clamp(1rem, 3vw, 1.25rem);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/logo.svg" alt="HeyCreator" class="logo">
+    <p class="coming-soon">Coming Soon</p>
+  </div>
+</body>
+</html>
